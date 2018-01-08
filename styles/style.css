@@ -1,13 +1,26 @@
-h1 {
-  color: red;
-  width: 500px;
-  border: 1px solid orange;
+.quote {
+	color: green;
 }
 
-li { 
-	color: red;	
+#mainquote {
+	border: 3px solid black;
 }
 
 p {
-	color: #ba3921;
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: placeholder: this should be the rest of the output you got from Google fonts
 }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #00539F;
